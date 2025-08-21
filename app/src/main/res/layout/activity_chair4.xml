@@ -182,13 +182,13 @@
                 android:src="@drawable/ic_baseline_favorite_24" />
 
             <ImageView
-                android:id="@+id/imageView14"
+                android:id="@+id/btnCart"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginEnd="36dp"
                 android:layout_toStartOf="@id/imageView15"
                 android:layout_centerVertical="true"
-                android:src="@drawable/cart" />
+                android:src="@drawable/ic_cart" />
 
             <ImageView
                 android:id="@+id/imageView15"

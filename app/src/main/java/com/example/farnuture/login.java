@@ -23,7 +23,7 @@ public class login extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent i = new Intent(getApplicationContext(),home.class);
+                        Intent i = new Intent(getApplicationContext(), home.class);
                         startActivity(i);
                     }
                 }

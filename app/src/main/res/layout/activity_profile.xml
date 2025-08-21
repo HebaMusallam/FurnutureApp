@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profile">
+    tools:context=".Profile">
 
     <ImageView
         android:id="@+id/imageView24"
@@ -166,7 +166,7 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <ImageView
-                android:id="@+id/imageView12"
+                android:id="@+id/btnHome"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="44dp"
@@ -176,27 +176,27 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView13"
+                android:id="@+id/btnFavorite"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="36dp"
                 android:src="@drawable/ic_baseline_favorite_24"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintStart_toEndOf="@+id/btnHome"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView14"
+                android:id="@+id/btnCart"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginEnd="36dp"
-                android:src="@drawable/cart"
+                android:src="@drawable/ic_cart"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView15"
+                app:layout_constraintEnd_toStartOf="@+id/btnProfile"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView15"
+                android:id="@+id/btnProfile"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginEnd="44dp"

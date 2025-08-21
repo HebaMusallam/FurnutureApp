@@ -6,4 +6,6 @@
     <string name="four_prg">This elegant table is crafted from high-quality </string>
     <string name="five_prg">This mirror features premium glass for a sharp  </string>
     <string name="six_prg">This sofa is made with highquality</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

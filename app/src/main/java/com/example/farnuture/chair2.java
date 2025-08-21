@@ -11,18 +11,23 @@ public class chair2 extends AppCompatActivity {
     View imageView15; //profile icon
     View imageView12; //home icon
 
+    View imageView13; //Favorite icon
+    View btnCart;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chair2);
         imageView15 = findViewById(R.id.imageView15);
         imageView12 = findViewById(R.id.imageView12);
+        btnCart = findViewById(R.id.btnCart);
+        imageView13 = findViewById(R.id.imageView13);
 
         imageView12.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent i = new Intent(getApplicationContext(),home.class);
+                        Intent i = new Intent(getApplicationContext(), home.class);
                         startActivity(i);
                     }
                 }
@@ -33,7 +38,25 @@ public class chair2 extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent i = new Intent(getApplicationContext(),profile.class);
+                        Intent i = new Intent(getApplicationContext(), Profile.class);
+                        startActivity(i);
+                    }
+                }
+        );
+        imageView13.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent i = new Intent(getApplicationContext(), Favorite.class);
+                        startActivity(i);
+                    }
+                }
+        );
+        btnCart.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent i = new Intent(getApplicationContext(), cart.class);
                         startActivity(i);
                     }
                 }
